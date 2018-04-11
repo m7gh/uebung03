@@ -27,7 +27,7 @@ public class StackTest {
 
 		// ...und rückwärts!
 		for (int i = a.length-1; i >= 0; i--)
-			assertEquals(a[i], cs.pop());
+			assertEquals(a[i], (char)cs.pop());
 
 		// Jetzt muss er wieder leer sein!
 		assertEquals(0, cs.size());
